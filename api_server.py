@@ -11,11 +11,11 @@ def getRequestHello():
 #POST REQUEST
 @app.route('/createHello', methods = ['POST'])
 def postRequestHello():
-	return "Got a POST message :-)"
+	return "Got a POST message."
 #UPDATE REQUEST
 @app.route('/updateHello', methods = ['PUT'])
 def updateRequestHello():
-	return "Received a PUT request!"
+	return "Received a PUT request."
 
 #DELETE REQUEST
 @app.route('/deleteHello', methods = ['DELETE'])
