@@ -12,6 +12,7 @@ def getRequestHello():
 @app.route('/createHello', methods = ['POST'])
 def postRequestHello():
 	return "Got a POST message."
+
 #UPDATE REQUEST
 @app.route('/updateHello', methods = ['PUT'])
 def updateRequestHello():
