@@ -1,4 +1,5 @@
 #THIS IS A WEBSERVER FOR DEMONSTRATING THE TYPES OF RESPONSES WE SEE FROM AN API ENDPOINT
+import os
 from flask import Flask
 app = Flask(__name__)
 
