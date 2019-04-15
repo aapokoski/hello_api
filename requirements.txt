@@ -1,4 +1,4 @@
 Cheetah==2.4.4
 Flask==0.12
-Jinja2==2.9.4
+Jinja2==2.10.1
 MarkupSafe==0.23
